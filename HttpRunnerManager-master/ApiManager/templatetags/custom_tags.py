@@ -6,7 +6,7 @@ from ApiManager.utils.common import update_include
 
 register = template.Library()
 
-
+#加注释！！！
 @register.filter(name='data_type')
 def data_type(value):
     """
