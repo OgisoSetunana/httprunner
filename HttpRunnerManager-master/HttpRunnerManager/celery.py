@@ -1,7 +1,7 @@
 from __future__ import absolute_import, unicode_literals
 
 import os
-
+#添加注释！
 from celery import Celery
 # set the default Django settings module for the 'celery' program.
 from django.conf import settings
