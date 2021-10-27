@@ -462,3 +462,16 @@ ValueError: invalid literal for int() with base 10: '用例_quant_login_out(登入登
 2021-10-27 17:08:26,163 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/index/static/assets/css/amazeui.min.css
 2021-10-27 17:08:26,321 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/index/static/assets/css/amazeui.min.css
 2021-10-27 17:08:50,920 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/index/static/assets/css/amazeui.min.css
+2021-10-27 17:10:36,467 [HttpRunnerManager:55] [views:login] [INFO]- renliang 登录成功
+2021-10-27 17:10:36,512 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:10:36,547 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:22:33,246 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:22:33,274 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:22:44,619 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:22:44,643 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:22:58,627 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/static/assets/css/amazeui.min.css
+2021-10-27 17:22:58,650 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/static/assets/css/amazeui.min.css
+2021-10-27 17:26:39,406 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/1/${pageContext.request.contextPath}/static/assets/css/amazeui.min.css
+2021-10-27 17:26:39,444 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/1/${pageContext.request.contextPath}/static/assets/css/amazeui.min.css
+2021-10-27 17:26:44,444 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/1/${pageContext.request.contextPath}/static/assets/css/amazeui.min.css
+2021-10-27 17:26:44,467 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/1/${pageContext.request.contextPath}/static/assets/css/amazeui.min.css

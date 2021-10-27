@@ -1220,3 +1220,48 @@ ValueError: invalid literal for int() with base 10: '”√¿˝_quant_login_out(µ«»Îµ«
 2021-10-27 17:08:29,480 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
 2021-10-27 17:08:50,920 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/index/static/assets/css/amazeui.min.css
 2021-10-27 17:08:50,921 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/index/static/assets/css/amazeui.min.css HTTP/1.1" 404 2512
+2021-10-27 17:10:32,847 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2021-10-27 17:10:36,469 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2021-10-27 17:10:36,489 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18202
+2021-10-27 17:10:36,512 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:10:36,513 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/static/assets/css/amazeui.min.css HTTP/1.1" 404 2494
+2021-10-27 17:10:36,547 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:10:36,548 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/static/assets/css/amazeui.min.css HTTP/1.1" 404 2494
+2021-10-27 17:22:33,225 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18219
+2021-10-27 17:22:33,246 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:22:33,247 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/static/assets/css/amazeui.min.css HTTP/1.1" 404 2494
+2021-10-27 17:22:33,274 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:22:33,274 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/static/assets/css/amazeui.min.css HTTP/1.1" 404 2494
+2021-10-27 17:22:41,143 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2021-10-27 17:22:44,603 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34102
+2021-10-27 17:22:44,619 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:22:44,620 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/static/assets/css/amazeui.min.css HTTP/1.1" 404 2494
+2021-10-27 17:22:44,643 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:22:44,643 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/static/assets/css/amazeui.min.css HTTP/1.1" 404 2494
+2021-10-27 17:22:58,613 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25468
+2021-10-27 17:22:58,627 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/static/assets/css/amazeui.min.css
+2021-10-27 17:22:58,627 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/module_list/static/assets/css/amazeui.min.css HTTP/1.1" 404 2530
+2021-10-27 17:22:58,650 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/static/assets/css/amazeui.min.css
+2021-10-27 17:22:58,650 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/module_list/static/assets/css/amazeui.min.css HTTP/1.1" 404 2530
+2021-10-27 17:26:39,381 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25500
+2021-10-27 17:26:39,406 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/1/${pageContext.request.contextPath}/static/assets/css/amazeui.min.css
+2021-10-27 17:26:39,407 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/module_list/1/$%7BpageContext.request.contextPath%7D/static/assets/css/amazeui.min.css HTTP/1.1" 404 2645
+2021-10-27 17:26:39,444 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/1/${pageContext.request.contextPath}/static/assets/css/amazeui.min.css
+2021-10-27 17:26:39,445 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/module_list/1/$%7BpageContext.request.contextPath%7D/static/assets/css/amazeui.min.css HTTP/1.1" 404 2645
+2021-10-27 17:26:40,208 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2021-10-27 17:26:44,429 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25500
+2021-10-27 17:26:44,444 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/1/${pageContext.request.contextPath}/static/assets/css/amazeui.min.css
+2021-10-27 17:26:44,444 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/module_list/1/$%7BpageContext.request.contextPath%7D/static/assets/css/amazeui.min.css HTTP/1.1" 404 2645
+2021-10-27 17:26:44,467 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/module_list/1/${pageContext.request.contextPath}/static/assets/css/amazeui.min.css
+2021-10-27 17:26:44,467 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/module_list/1/$%7BpageContext.request.contextPath%7D/static/assets/css/amazeui.min.css HTTP/1.1" 404 2645
+2021-10-27 17:26:45,109 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2021-10-27 17:30:02,036 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25489
+2021-10-27 17:30:06,792 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2021-10-27 17:30:10,372 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16135
+2021-10-27 17:30:18,544 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13696
+2021-10-27 17:30:18,998 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2021-10-27 17:30:18,998 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2021-10-27 17:30:18,999 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2021-10-27 17:30:19,000 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2021-10-27 17:30:21,211 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/1/ HTTP/1.1" 200 2622
+2021-10-27 17:30:21,224 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
