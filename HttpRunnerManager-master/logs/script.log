@@ -455,3 +455,10 @@ ValueError: invalid literal for int() with base 10: '”√¿˝_quant_login_out(µ«»Îµ«
 2021-10-27 16:56:18,095 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/debugtalk_list/static/assets/css/amazeui.min.css
 2021-10-27 16:56:19,477 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/debugtalk_list/static/assets/css/amazeui.min.css
 2021-10-27 16:56:19,606 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/debugtalk_list/static/assets/css/amazeui.min.css
+2021-10-27 17:01:23,924 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:01:27,790 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:01:27,812 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:08:22,724 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/static/assets/css/amazeui.min.css
+2021-10-27 17:08:26,163 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/index/static/assets/css/amazeui.min.css
+2021-10-27 17:08:26,321 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/index/static/assets/css/amazeui.min.css
+2021-10-27 17:08:50,920 [django.request:91] [base:get_response] [WARNING]- Not Found: /api/index/static/assets/css/amazeui.min.css
